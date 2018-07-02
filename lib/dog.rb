@@ -1,7 +1,13 @@
 class Dog
-  def initialize(name, age, breed)
-    @name  = name
-    @age   = age
-    @breed = breed
-  end
+
+  attr_reader :name,
+                :age,
+                :breed
+
+    def initialize(name, age, breed)
+      @name  = name
+      @age   = age
+      @breed = breed
+    end
+    
 end
